@@ -2,19 +2,19 @@ package com.kh.second;
 
 public class MethodTest {
 	
-	public static void main(String[] args) {
-		
-		char a = '가';
-		String d = new String("come");
-		int b = 1;
-		int c = 1;
-		
-		System.out.println(a);
-		System.out.println(d);
-		System.out.println( b + c);
-		
-		System.out.println("찍히니?");
-	}
+//	public static void main(String[] args) {
+//		
+//		char a = '가';
+//		String d = new String("come");
+//		int b = 1;
+//		int c = 1;
+//		
+//		System.out.println(a);
+//		System.out.println(d);
+//		System.out.println( b + c);
+//		
+//		System.out.println("찍히니?");
+//	}
 	
 	/* 
 	 * 한 클래스 내에 여러 개의 메소드를 정의해둘 수 있음
@@ -24,21 +24,26 @@ public class MethodTest {
 	public void TestPrintA() {
 		
 		
-		System.out.println("testPrintA 메서드 실행");
+		System.out.println("testPrintA 메서드 실행쓰?");
+//		TestPrintB();
+//		TestPrintC();
+		
+		TestPrintB();
 	}
 
 	public void TestPrintB() {
 		
 		System.out.println("testPrintB 메서드 실행");
+		TestPrintC();
 
 	}
 	
-	public void TestPringC() {
+	public void TestPrintC() {
 		
 		System.out.println("testPrintC 메서드 실행");
 		
 	}
 	
-	// ** main 메서드 밖에있으니 콘솔이 안찍힌다!? **
+	// ** main 메서드 밖에있으니 콘솔이 안찍힌다!? -> 실행 안된다는 뜻 **
 	
 }

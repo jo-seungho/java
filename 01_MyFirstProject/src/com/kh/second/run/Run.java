@@ -20,9 +20,19 @@ public class Run {
 		 * 클래스명 대변할이름 = new 클래스명();
 		 * 
 		 */
-				
+			
+		// ** 호출 방법 예시 **
+		
+//		com.kh.second.MethodTest mt = new com.kh.second.MethodTest();	
+		// 풀 네임과 경로 명시
+		
+		
 		MethodTest mt = new MethodTest();
-		System.out.println(mt);
+		// 임포트 버전
+		
+		mt.TestPrintA();
+//		mt.TestPrintB();
+//		mt.TestPrintC();
 	}
-
+		
 }
