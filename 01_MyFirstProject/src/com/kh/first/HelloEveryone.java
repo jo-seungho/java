@@ -52,9 +52,30 @@ public class HelloEveryone {
 		System.out.print("Holly");
 		System.out.print("Molly");
 		
+		System.out.print("Holly\n");
+		System.out.print("Molly");
+		
 		// 위 두가지 출력 방법의 차이점?
-//		System.out.println();   <- 출력 하나당 한줄(줄 바꿈까지 포함 / 개행)
-//		System.out.print();     <- 줄 바꿈을 하지 않는다
+		// System.out.println();   <- 출력 하나당 한줄(줄 바꿈까지 포함 / 개행)
+		// System.out.print();     <- 줄 바꿈을 하지 않는다
+		// \n   <-  줄 바꿈 기호 먹는다
+		
+		System.out.printf("/n넌 뭐니?/n");
+		System.out.printf("%n넌 뭐니?%n");
+		// System.out.printf(format, arguments)  <- 기본 문법
+		// 이놈은 줄 바꿈 기호가 안먹는다
+		
+		/* %n : 줄바꿈
+		%s : String 형식으로 출력
+		%d : integer 형식으로 출력
+		%f : float 형식으로 출력
+		%t : date, time 형식으로 출력
+		%o : 8진수 integer 형식으로 출력
+		%x : 16진수 integer 형식으로 출력
+		%b : boolean 형식으로 출력
+		%e : 지수 형식으로 출력
+		*/
+		
 	}
 
 }
