@@ -42,6 +42,12 @@ public class MethodTest {
 		
 		System.out.println("testPrintC 메서드 실행");
 		
+		// 여기서 만약 TestPrintA(); 를 싱행하면? 무한 루프 시작
+		// StackOverFlowError 터짐
+		// 프로그램이 실행 중 메모리 문제로 터지는 에러인데
+		// Stack (저장 공간)의 크기를 벗어나서 터지는 문제
+		// 무한 루프를 포함한 Stack 공간의 개념 이해 필요  
+		
 	}
 	
 	// ** main 메서드 밖에있으니 콘솔이 안찍힌다!? -> 실행 안된다는 뜻 **
