@@ -29,4 +29,9 @@ package com.kh.first;
 
 public class HelloWorld {
 
+	/*
+	 * Class 유사한 특징을 지닌 코드들 (변수, 메소드) 을 묶어놓은 집합체 자바에서는 모든 코드들은 반드시 클래스 안에 존재해야 하며, 한
+	 * 개의 클래스 = 한개의 .Java 파일이 된다.
+	 */
+
 }
